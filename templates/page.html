@@ -1,0 +1,30 @@
+{% extends "head.html" %}
+ {% block body %}
+<style type="text/css">
+{% for tab in tabs %}
+    #wrapper.tab{{forloop.counter}} a.tab{{forloop.counter}} {
+        border-radius: 0px 0px 5px 5px;
+        background-color: rgb(30, 169, 213);
+        color: rgb(255, 255, 255);
+        cursor: default;
+        font-weight: bold;
+        text-decoration: none;
+    }
+        {% endfor %}
+</style>
+<div class="my_body">
+    <div id="wrapper" class="tab0">
+        {% for tab in tabs %}
+            <a href="#" class="tab{{forloop.counter}}">{{tab}}</a>
+        {% endfor %}
+            <a onclick="open_popup('#modal_window');" href="#">О нас</a>
+        <hr>
+    <!--     <div class="tab1">Содержимое 1</div>
+        <div class="tab2">Содержимое 2</div>
+        <div class="tab3">Содержимое 3</div> -->
+    </div>
+<div id='data'></div>
+<div id="modal_window"></div>
+<div id="background" ></div>
+
+{% endblock %}

@@ -1,0 +1,113 @@
+            #wrapper div {
+                display:none;
+            }
+            #wrapper.tab1 div.tab1 {
+                display:block;
+                width:100%;
+            }
+            #wrapper.tab2 div.tab2 {
+                display:block;
+                width:100%;
+            }
+            #wrapper.tab3 div.tab3 {
+                display:block;
+                width:100%;
+            }
+
+             #wrapper {
+                /*background-color: white;*/
+                /*width: 10%;*/
+                /*float: left;*/
+                /*border: 1px solid orangered;*/
+                /*min-height: 420px;*/
+            }
+
+            .my_body{
+                /*background-color: rgb(211, 65, 65);*/
+                min-height: 420px;
+                /*width: 550px;*/
+                border: 1px solid rgb(30, 169, 213);
+                border-radius: 0px 0px 15px 15px;
+            }
+
+            #data{
+                padding: 15px 15px 0px 15px;
+                /*background-color: white;*/
+                /*width: 89%;*/
+                /*float: right;*/
+                /*border: 1px solid orangered;*/
+                /*min-height: 420px;*/
+            }
+
+            table{
+                border: 1px solid rgb(30, 169, 213);
+                border-radius: 0px 0px 10px 10px;
+                margin-bottom: 15px ;
+            }
+
+            td{
+                border: 1px solid rgb(30, 169, 213);
+            }
+
+            td.first{
+                border-radius: 0px 0px 0px 10px;
+            }
+
+            td.end{
+                border-radius: 0px 0px 10px 0px;
+            }
+
+            #postform{
+                min-height: 320px;
+                padding: 15px;
+                width: 345px;
+                border: 1px solid rgb(30, 169, 213);
+                border-radius: 0px 0px 0px 15px;
+            }
+
+            #postform p input{
+                float: right;
+            }
+    #background {
+      left: 0;
+      top: 0;
+      position: absolute;
+      background: #000;
+      opacity: 0.7;
+      z-index: 999;
+      display: none;
+      height: 100%;
+      width: 100%;
+    }
+
+    #modal_window {
+      display: none;
+      z-index: 9999;
+      border: 1px solid #444;
+      background-color: #FEFEFE;
+      border-radius: 10px;
+      padding: 15px 20px;
+      /*height: 1000px;*/
+      width: 90%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
